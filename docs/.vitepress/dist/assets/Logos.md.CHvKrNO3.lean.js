@@ -1,0 +1,1 @@
+import{_ as o,c as t,o as r,ae as a}from"./chunks/framework.tuuL-SzM.js";const c=JSON.parse('{"title":"Logos","description":"","frontmatter":{},"headers":[],"relativePath":"Logos.md","filePath":"Logos.md"}'),s={name:"Logos.md"};function d(n,e,i,l,p,h){return r(),t("div",null,e[0]||(e[0]=[a("",4)]))}const u=o(s,[["render",d]]);export{c as __pageData,u as default};

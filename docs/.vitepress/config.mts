@@ -8,21 +8,41 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/about' }
     ],
 
     sidebar: [
+   
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Roles', link: '/getting-started/roles' },
+          { text: 'Committee', link: '/getting-started/committee' },
+          { text: 'Global AI Chapter Setup', link: '/getting-started/global-ai-chapter-setup' }
+        ]
+      },   {
+        text: 'Assets and Resources',
+        items: [
+          { text: 'Marketing assets', link: '/assets-and-resources/marketing-assets' },
+          { text: 'Deck templates', link: '/assets-and-resources/deck-templates' },
+          { text: 'Planning templates', link: '/assets-and-resources/planning-templates' },
+          { text: 'Access to Teams', link: '/assets-and-resources/access-to-teams' },
+          { text: 'User Group Logos', link: '/logos' },
+          { text: 'Other', link: '/assets-and-resources/other' }
+        ]
+      },
+      {
+        text: 'Additional Resources',
+        items: [
+          { text: 'Code of Conduct', link: '/code-of-conduct' },
+          { text: 'FAQ', link: '/faq' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'twitter', link: 'https://twitter.com/ukaiusergroups' }
     ]
   }
 })
