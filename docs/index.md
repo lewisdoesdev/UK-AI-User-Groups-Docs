@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /Start
+      link: /Marketing/Logos
 
 features:
   - title: Want to check whether your marketing content looks right?

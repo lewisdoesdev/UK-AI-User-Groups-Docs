@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/marketing/Logos' }
+      { text: 'Documentation', link: '/Marketing/Logos' }
     ],
 
     sidebar: [
@@ -21,8 +21,8 @@ export default defineConfig({
       },   {
         text: 'Marketing & Branding',
         items: [
-          { text: 'Logos', link: '/marketing/Logos' },
-          { text: 'Social Media Templates', link: '/marketing/SocialMediaTemplates' },
+          { text: 'Logos', link: '/Marketing/Logos' },
+          { text: 'Social Media Templates', link: '/Marketing/SocialMediaTemplates' },
         ]
       }
     ],
