@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/assets-and-resources/Logos' }
+      { text: 'Documentation', link: '/marketing/Logos' }
     ],
 
     sidebar: [
@@ -19,22 +19,16 @@ export default defineConfig({
           
         ]
       },   {
-        text: 'Assets and Resources',
+        text: 'Marketing & Branding',
         items: [
-          { text: 'Logos', link: '/assets-and-resources/Logos' },
-        ]
-      },
-      {
-        text: 'Additional Resources',
-        items: [
-         
+          { text: 'Logos', link: '/marketing/Logos' },
+          { text: 'Social Media Templates', link: '/marketing/SocialMediaTemplates' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'twitter', link: 'https://twitter.com/ukaiusergroups' }
+      
     ]
   }
 })
